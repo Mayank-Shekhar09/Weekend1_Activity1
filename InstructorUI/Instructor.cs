@@ -13,7 +13,7 @@ namespace InstructorUI
         static int Experience;
         static float AvgFeedback;
 
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
         /* float avgFeedback;
          int experience;
@@ -43,7 +43,7 @@ namespace InstructorUI
 
         }
 
-    Instructor(string instructorName, float avgFeedback, int experience, string[] instructorSkill)
+    public Instructor(string instructorName, float avgFeedback, int experience, string[] instructorSkill)
     {
     instructorName = instructorName;
     avgFeedback = avgFeedback;
@@ -51,7 +51,7 @@ namespace InstructorUI
     instructorSkill = instructorSkill;
     }
 
-    bool CheckSkill(string technology)
+    public bool CheckSkill(string technology)
     {
             int pos = -1;
         for(int index = 0; index < InstructorSkill.Length; index++)
