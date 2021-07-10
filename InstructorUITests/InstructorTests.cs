@@ -13,16 +13,17 @@ namespace InstructorUI.Tests
     {
         
 
-        [TestMethod()]
-       
-
-        [TestMethod()]
+        
         
 
         [TestMethod()]
         public void CheckSkillTest()
         {
-            Assert.Fail();
+            string temp = "java";
+            Instructor inst = new Instructor();
+            bool received = inst.CheckSkill(temp);
+            bool expected = false;
+            Assert.AreEqual(received, expected);
         }
 
         [TestMethod()]
