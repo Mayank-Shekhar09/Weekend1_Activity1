@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace InstructorUI
 {
-    class Instructor
+    public class Instructor
     {
         static string[] InstructorSkill = new string[10000];
         static int Experience;
