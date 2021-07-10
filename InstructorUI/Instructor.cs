@@ -18,7 +18,7 @@ namespace InstructorUI
         /* float avgFeedback;
          int experience;
          string instructorName;
-         string[] instructorSkill = new string[Int32.MaxValue];*/
+         string[] instructorSkill = new string[Int32.MaxValue];.*/
 
 
         AvgFeedback = (float)Convert.ToDouble(Console.ReadLine());
